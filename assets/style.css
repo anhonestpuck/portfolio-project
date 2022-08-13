@@ -1,8 +1,6 @@
 html {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 5%;
+   margin: 5%;
+   padding: -5%;
 }
 
 body {
@@ -12,10 +10,24 @@ body {
 
 nav {
     float: right;
-    text-decoration-color: red;
+    color: aqua
 }
 
-#contact-link {
-    background-color: gray;
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+.about-me {
+    display: flex;
+    padding: 15px;
+}
 
+#johnson1 {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.work-projects {
+    display: flex;
+    flex: wrap;
 }
