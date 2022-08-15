@@ -1,33 +1,38 @@
 html {
-   margin: 5%;
-   padding: -5%;
+    background-color: silver;
+    margin: 10px;
 }
+/* its very confusing as far as which attributes to put where
+in order to determine exactly how I want it styled. */
 
 body {
-    background: teal;
-    margin: auto;
-}
-
-nav {
-    float: right;
-    color: aqua
+    margin: 0%;
+    width: 80%;
 }
 
 img {
-    max-width: 200px;
-    max-height: 200px;
+    height: 300px;
+    width: 300px;
+}
+
+nav {
+    border: 5px aqua solid;
+    float: right;
+    padding: 5px;
+}
+
+main {
+    padding: 15%;
+    border: 25%;
 }
 .about-me {
-    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 800px;
+    max-height: 800px;
     padding: 15px;
 }
 
-#johnson1 {
-    max-width: 300px;
-    max-height: 300px;
-}
-
 .work-projects {
-    display: flex;
-    flex: wrap;
-}
+    display: block;
+}    
+/* I've added these 36 lines in and everything appears to be lining up the way I want */
