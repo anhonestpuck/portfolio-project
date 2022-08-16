@@ -10,52 +10,65 @@
 
 <body>
     <header class="header">
-        <nav class="links">
-            <a id="contact-link" href="#contact-info"> Contact Info</a>
-            <a id="work-projects-link" href="#work-projects"> Previous Projects</a>
-            <a id="about-me-link" href="#about-me"> Personal Bio</a>
-        </nav>
+       
+            <p>Portfolio</p>
+            <nav class="links">
+                <a href="#contact-info"> Contact Info</a>
+                <a href="#work-projects"> Previous Projects</a>
+                <a href="#about-me"> Personal Bio</a>
+            </nav>
+        
     </header>
     
     <main class="container">
         <section class="about-me">
             <h1> A little History</h1>
             <!-- I added a picture in here and I will size it in css -->
+             <div class="biocontainer">
                 <img id="johnson1" src="./assets/1B53F297-F8C2-4A53-AD77-92A71C69AE28.JPG" alt="Image of myself and Johnson">
-                <p id="bio"> I studied Shakespeare the first time I went
+                <p> I studied Shakespeare the first time I went
                     to UNCC and I have dabbled in quite a bit over the 
                     years.  I've reached a definite point though where I want
                     to truly master a craft and succeed in that field.
                 </p>
-
+            </div>
         </section>
 <!-- here i've organized my links and am attempting to set them up to be wrapped and ordered -->
-        <section class="work-projects">
+        <article class="work-projects">
             <h2 id="h2">Work Projects</h2>
-              
-            <a id="first" href="https://anhonestpuck.github.io/pre-work-study-guide/">
-                <img src="./assets/Screen Shot 2022-08-13 at 7.00.59 AM.png" alt="First live Application for Pre-work">
-            </a>
+            
+            <div class="project1">
+                <a id="first" href="https://anhonestpuck.github.io/pre-work-study-guide/">
+                    <img src="./assets/Screen Shot 2022-08-13 at 7.00.59 AM.png" alt="First live Application for Pre-work">
+                </a>
+                <p class="linktext">Pre-Work Project</p>
+            </div>
 
+           
+            </article>
+
+            <article class="challenge1">
             <a id= "first-challenge" href="https://anhonestpuck.github.io/horiseon-refactor-project/">
                 <img src="./assets/Screen Shot 2022-08-13 at 7.20.50 AM.png" alt="Snippet of the code I modified">
             </a>
-
+                <p>Challenge 1</p>
+               
+            </article>
             <a id="mrjohnson"> 
                 <img src="./assets/IMG-7026.jpg" alt="Only finished two applications so here's Johnson!">
             </a>
                    
-        </section>
-
+        </article>
+       </main>
         <section id="contact-info"> 
             <h3>Contact Info</h3>
                 <a href="mailto: noemail@noemail.com"> Email Address</a>   
                 <a href="tel: 1223456789"> Phone Number</a>
-                <a ="https://github.com/anhonestpuck"> GitHub</a>
+                <a href="https://github.com/anhonestpuck"> GitHub</a>
 
         </section>
 
-    </main>
+ 
 
     
 </body>
