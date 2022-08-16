@@ -1,13 +1,10 @@
-html {
-    background-color: silver;
-    margin: 10px;
-}
-/* its very confusing as far as which attributes to put where
-in order to determine exactly how I want it styled. */
-
 body {
     margin: 0%;
-    width: 80%;
+    align-content: center;
+}
+
+main {
+    display: block;
 }
 
 img {
@@ -21,18 +18,13 @@ nav {
     padding: 5px;
 }
 
-main {
-    padding: 15%;
-    border: 25%;
-}
 .about-me {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    max-width: 800px;
-    max-height: 800px;
-    padding: 15px;
 }
 
-.work-projects {
-    display: block;
+#work-projects {
+    display: flex;
+    flex: wrap;
+    padding: 10%;
 }    
 /* I've added these 36 lines in and everything appears to be lining up the way I want */
