@@ -1,15 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
+body {
+    margin: 5px;
+    padding: 25px;
+    display: relative;
+    justify-content: space-between;
+    background-color: #39648a;
+}
 
-.header .links {
-    background-color: darkslategray;
-    float: right;
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+header {
+    display: flex;
+    flex: row;
 }
 
 
 
-header p {
-    font-weight: bold;
-    font-size: 350;
-}
+
+
+
+
+
 
 
