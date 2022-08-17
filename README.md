@@ -20,4 +20,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Anthony helped me touch up my css when I was struggling to clean it up.  My two friends Payne and Patty really stepped in and helped me figure some stuff out as well.
 
 ## No license
-I don't know for sure but I don't think there's a license on here.  I may have put the MIT one as a default from pre-work stuff.
+I don't know for sure but I don't think there's a license on here.  I may have put the MIT one as a default from pre-work stuff.\
+
+## screenshot
+![Screenshot of web page](./assets/screencapture-anhonestpuck-github-io-portfolio-project-2022-08-17-17_06_20.png)
